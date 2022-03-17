@@ -87,5 +87,5 @@ with open(r"C:\Users\sargs\Рабочий стол\sorting\nums.txt","w") as mai
 
 
         main_file.write(current)
-        main_file.write(" ")
+        
     chunk20.close()
