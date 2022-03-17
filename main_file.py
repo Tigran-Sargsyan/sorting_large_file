@@ -1,7 +1,8 @@
 import random
 
-with open(r"C:\Users\sargs\Рабочий стол\sorting\nums.txt","w") as main_file:
-    chunk1 = open(r"C:\Users\sargs\Рабочий стол\sorting\chunk1.txt", "w")
+with open(r"C:\Users\sargs\Рабочий стол\sorting\nums.txt","w") as main_file:  
+    #Reading parts of the file and copying them into files called chunk1,chunk2 ... chunk20
+    chunk1 = open(r"C:\Users\sargs\Рабочий стол\sorting\chunk1.txt", "w")   
     chunk2 = open(r"C:\Users\sargs\Рабочий стол\sorting\chunk2.txt", "w")
     chunk3 = open(r"C:\Users\sargs\Рабочий стол\sorting\chunk3.txt", "w")
     chunk4 = open(r"C:\Users\sargs\Рабочий стол\sorting\chunk4.txt", "w")
