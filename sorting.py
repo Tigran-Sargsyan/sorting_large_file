@@ -1,6 +1,7 @@
 lst = [0] * 121
 sorted_list = open(r"C:\Users\sargs\Рабочий стол\sorting\sorted.txt","w")
 
+"""A Function to count how many times has the number occured in a given file"""
 def counter(filename):
     file1 = open(r"C:\Users\sargs\Рабочий стол\sorting\{fname}".format(fname=filename))
     file = list(file1)
